@@ -1,0 +1,92 @@
+body{
+	margin: 0;
+}
+.jumbotron{
+	background-color: #c18ff0;
+ 	padding-top: 42px;
+ 	/*padding-bottom: 42px;*/
+ 	padding-left: 20px;
+ 	margin-top: 55px
+}
+.headmenu{
+	color:white;
+	margin-right: 80px;
+}
+.history{
+	padding-left: 50px;
+}
+.corplead{
+	padding-left: 50px
+}
+#p1{
+	margin-right: 60%;
+}
+.frow2{
+	justify-content: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+@media only screen and (max-width: 576px){
+	.para{
+		display: none;
+	}
+	#p1{
+		margin-right: 25%;
+	}
+	.frow2{
+	/*padding-left:1%;*/
+	padding-top: 1%;
+	padding-bottom: 1%;
+	}
+	.pad{
+		padding-top: 45px;
+	}
+}
+@media only screen and (max-width: 768px){
+	
+	#p1{
+		margin-right: 45%;
+	}
+	.frow2{
+	/*padding-left:25%;*/
+	padding-top: 1%;
+	padding-bottom: 1%;
+	}
+}
+@media only screen and (max-width: 992px){
+	
+	.frow2{
+	/*padding-left:35%;*/
+	padding-top: 1%;
+	padding-bottom: 1%;
+	}
+}
+
+.footer{
+	background-color: #dabcf6;
+}
+.frow{
+	display: flex;
+	width: 100%;
+}
+.fcol1, 
+.fcol2, 
+.fcol3{
+	padding-left: 12%;
+	padding-top: 5%;
+	display: table-cell;
+}
+.frow2{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.fcol3{
+	align-self: center;
+}
+.pt-6{
+	padding-top: ($spacer * 3.5) !important;
+}
+.navbar-custom{
+	height:55px;
+}

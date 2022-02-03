@@ -90,3 +90,10 @@ body{
 .navbar-custom{
 	height:55px;
 }
+.error{
+	color: red;
+	size: 80%;
+}
+.hidden{
+	display: none;
+}
